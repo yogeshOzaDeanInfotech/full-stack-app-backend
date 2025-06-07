@@ -6,7 +6,7 @@ const port = 5000;
 
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: ["http://localhost:5173", "http://3.7.46.55"],
     })
 );
 
